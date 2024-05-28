@@ -1,0 +1,13 @@
+.selector {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.8em;
+
+    &:hover {
+        background-color: #13161b;
+    }
+}

@@ -1,0 +1,8 @@
+.objectSelector {
+    position: relative;
+    height: calc(100vh - 204.5px);
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
