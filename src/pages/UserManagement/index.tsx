@@ -35,14 +35,9 @@ const UserManagement: React.FC = () => {
                 <Button onClick={() => setView('grid')}>Card View</Button>
                 <Button onClick={handleAddUser}>Add User</Button>
             </div>
-            {/* {view === 'card' ? ( */}
-                {/* users.map(user => <UserCard key={user.id} user={user} deleteUser={handleDeleteUser} />) */}
-            {/* ) : ( */}
             <div  className={view === 'grid' ? style.gridContainer : style.listContainer}>
-
                 {users.map(user => <UserList view={view} key={user.id} user={user} deleteUser={handleDeleteUser} />)}
             </div>
-            {/* )} */}
         </div>
     );
 };
