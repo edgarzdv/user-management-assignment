@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { addUser, deleteUser } from '../../store/userSlice';
 
-import UserCard from '../../components/userCard';
 import UserList from '../../components/userList';
 import { User } from '../../types/User';
 
